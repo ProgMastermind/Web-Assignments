@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignments</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .header {
+        /* background-color: #007bff; */
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 800px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+
+      .name-container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        padding: 20px;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .left-container {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        align-items: center;
+      }
+
+      .right-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      .name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .reg-no {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .slot {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+
+      .assignment-header {
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+      }
+
+      .assignment-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        padding: 20px;
+        gap: 10px;
+      }
+
+      .assignment-card {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      .assignment-text {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .btn {
+        padding: 5px 10px;
+        font-size: 16px;
+        color: white;
+        background-color: #007bff;
+        text-align: center;
+        display: inline-block;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+
+      .btn:hover {
+        background-color: #0069d9;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">Assignments</div>
+
+    <div class="container">
+      <div class="name-container">
+        <div class="left-container">
+          <div class="name">John Doe</div>
+          <div class="reg-no">Registration number: ABC123</div>
+          <div class="slot">Slot: A1</div>
+        </div>
+
+        <div class="right-container">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Avatar"
+            class="avatar"
+          />
+        </div>
+      </div>
+
+      <div class="assignment-header">Your Assignments</div>
+
+      <div class="assignment-container">
+        <div class="assignment-card">
+          <div class="assignment-text">
+            Layout-1
+            <br />
+            A responsive grid layout
+          </div>
+          <a href="#" class="btn">Submit</a>
+        </div>
+
+        <div class="assignment-card">
+          <div class="assignment-text">
+            Layout -2
+            <br />
+            A responsive grid layout
+          </div>
+          <a href="#" class="btn">Submit</a>
+        </div>
+      </div>
+
+      <div class="assignment-container">
+        <div class="assignment-card">
+          <div class="assignment-text">
+            Calculator
+            <br />
+            A simple Calculator
+          </div>
+          <a href="#" class="btn">Submit</a>
+        </div>
+
+        <div class="assignment-card">
+          <div class="assignment-text">
+            Clock
+            <br />
+            A simple digital analog clock
+          </div>
+          <a href="#" class="btn">Submit</a>
+        </div>
+      </div>
+
+      <div class="assignment-container">
+        <div class="assignment-card">
+          <div class="assignment-text">
+            DOM Assignment
+            <br />
+            A space where elements can be added or deleted
+          </div>
+          <a href="#" class="btn">Submit</a>
+        </div>
+
+        <div class="assignment-card">
+          <div class="assignment-text">
+            Slider
+            <br />
+            Slider which moves with timer
+          </div>
+          <a href="#" class="btn">Submit</a>
+        </div>
+      </div>
+
+      <div class="assignment-container">
+        <div class="assignment-card">
+          <div class="assignment-text">
+            Login Validation
+            <br />
+            A Login page valadtion done with PHP
+          </div>
+          <a href="#" class="btn">Submit</a>
+        </div>
+
+        <div class="assignment-card">
+          <div class="assignment-text">
+            Regex Checker
+            <br />
+            Form should satisfy all the requirements
+          </div>
+          <a href="#" class="btn">Submit</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

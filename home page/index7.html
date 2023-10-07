@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignments</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .header {
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 800px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+
+      .name-container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        padding: 20px;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .left-container {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        align-items: center;
+      }
+
+      .right-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      .name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .reg-no {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .slot {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+
+      .assignment-header {
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+      }
+
+      .assignment-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 20px;
+        padding: 20px;
+      }
+
+      .assignment-text {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .assignment {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Assignments</h1>
+    </div>
+    <div class="container">
+      <div class="name-container">
+        <div class="left-container">
+          <div class="name">John Doe</div>
+          <div class="reg-no">Registration No.: ABC123</div>
+          <div class="slot">Slot A1</div>
+        </div>
+        <div class="right-container">
+          <img src="avatar.jpg" alt="Avatar" class="avatar" />
+        </div>
+      </div>
+      <div class="assignment-header">Assignments</div>
+      <div class="assignment-container">
+        <div class="assignment">
+          <div class="assignment-text">Assignment 1</div>
+          <button class="btn">Submit</button>
+        </div>
+        <div class="assignment">
+          <div class="assignment-text">Assignment 2</div>
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+      <div class="assignment-container">
+        <div class="assignment">
+          <div class="assignment-text">Assignment 3</div>
+          <button class="btn">Submit</button>
+        </div>
+        <div class="assignment">
+          <div class="assignment-text">Assignment 4</div>
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+      <div class="assignment-container">
+        <div class="assignment">
+          <div class="assignment-text">Assignment 5</div>
+          <button class="btn">Submit</button>
+        </div>
+        <div class="assignment">
+          <div class="assignment-text">Assignment 6</div>
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+      <div class="assignment-container">
+        <div class="assignment">
+          <div class="assignment-text">Assignment 7</div>
+          <button class="btn">Submit</button>
+        </div>
+        <div class="assignment">
+          <div class="assignment-text">Assignment 8</div>
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
