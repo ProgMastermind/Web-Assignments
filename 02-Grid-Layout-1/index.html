@@ -69,9 +69,92 @@
 
         background-color: lightgreen;
       }
+      .container {
+        margin: 0 auto;
+        max-width: 900px;
+
+        /* height: 1500px; */
+        /* border: 1px solid #ccc;
+  border-radius: 10px; */
+      }
+
+      .name-container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        padding: 15px;
+        border-bottom: 1px solid #ccc;
+        width: 850px;
+      }
+
+      .left-container {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        align-items: center;
+      }
+
+      .right-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .name {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .reg-no {
+        font-size: 15px;
+      }
+
+      .slot {
+        font-size: 15px;
+      }
+
+      .avatar {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+      }
+      footer {
+        background-color: orangered;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 1200px;
+        height: 70px;
+
+        align-items: center;
+      }
+      .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* height: 100vh; */
+      }
     </style>
   </head>
   <body>
+    <div class="container">
+      <div class="name-container">
+        <div class="left-container">
+          <div class="name">DAKARAPU VARAHA SURYA PRAKASH</div>
+          <div class="reg-no">
+            Registration number:&nbsp;<span class="bold">21MIS7126</span>
+          </div>
+          <div class="slot">
+            Slot:&nbsp;<span class="light-bold">F2+TF2</span>
+          </div>
+        </div>
+
+        <div class="right-container">
+          <img src="503.jpeg" alt="Avatar" class="avatar" />
+        </div>
+      </div><br />
     <div class="grid-container">
       <div class="item" id="navbar">NAVBAR</div>
       <div class="item" id="sidebar">SIDEBAR</div>
@@ -80,6 +163,12 @@
       <div class="item" id="content-2">CONTENT-2</div>
       <div class="item" id="content-3">CONTENT-3</div>
       <div class="item" id="footer">FOOTER</div>
+    </div><br />
+    <div class="footer">
+      <footer>
+        <p>Email: surya.21mis7126@vitapstudent.ac.in</p>
+        <p>Contact: 9398233616</p>
+      </footer>
     </div>
   </body>
 </html>
